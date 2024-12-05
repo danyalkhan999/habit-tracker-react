@@ -3,28 +3,33 @@
     background-size: 90%;
     background-position: -350% 30%; */
     /* background-position: right; */
-    border-bottom: 1px solid ;
+    border-bottom: 1px solid;
 
 }
+
 body {
     /* background: rgb(0,0,0);
 background: radial-gradient(circle, rgba(0,0,0,1) 100%, rgba(0,212,255,1) 100%, rgba(1,0,5,1) 100%); */
     background-image: url("../public/bg-glitter.jpg");
+    background-blend-mode: overlay;
 }
 
 
 
-.done{
+.done {
     color: rgb(25, 204, 55);
 }
-.fail{
-    color:rgb(235, 14, 14);
+
+.fail {
+    color: rgb(235, 14, 14);
 }
-.day-headings{
+
+.day-headings {
     color: #049cbe;
 }
+
 .text-light {
     font-family: monospace, 'Montserrat', sans-serif;
     font-size: larger;
-    
-  }
+
+}
